@@ -4,23 +4,23 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.more-inf_container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.more-inf_container img {
   width: 100%;
 }
-.aaa .more_inf {
+.more-inf_container .more-inf_ref {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
-  .aaa { text-align: center;
+  .more-inf_container { text-align: center;
   }
 }
-.centered-main-page-element {
+.main-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-task_wrapper {
   display: flex;
 }
 ul {
